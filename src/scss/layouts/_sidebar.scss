@@ -1,0 +1,97 @@
+//  ============================================================
+//  Name:               Sidebar
+//  Description:        Styles for sidebar
+//
+//  Component:          `uis-sidebar-*`
+//
+//  Sub-components:     `uis-button-group`
+//                      `uis-floating-button`
+//
+//  Modifiers:          `uis-sidebar`
+//
+//  ============================================================
+
+//  ============================================================
+//  Variables
+//  ============================================================
+
+$sidebar-width:                                 250px !default;
+$sidebar-background:                            #FCFCFC !default;
+$sidebar-padding:                               gutter(medium) !default;
+
+$sidebar-scrollbar-width:                       8px !default;
+$sidebar-scrollbar-track-background:            background-color(background) !default;
+
+$sidebar-scrollbar-thumb-background:            darken(background-color(wrapper), 20%) !default;
+$sidebar-scrollbar-thumb-background-hover:      darken(background-color(wrapper), 30%) !default;
+$sidebar-scrollbar-thumb-border-radius:         100px;
+
+
+/* ============================================================
+    Component: Sidebar
+   ============================================================ */
+
+.#{$prefix}-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 100vh;
+    width: $sidebar-width;
+    padding: $sidebar-padding;
+    box-sizing: border-box;
+
+    background-color: $sidebar-background;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/*
+ * Show the sidebar on Large and up only
+ */
+@include respond-to-max(medium) {
+    .#{$prefix}-sidebar {
+        display: none;
+    }
+}
+
+
+
+/* Scrollbar
+   ============================================================ */
+
+.#{$prefix}-sidebar::-webkit-scrollbar {
+    width: $sidebar-scrollbar-width;
+}
+
+/* Track */
+.#{$prefix}-sidebar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* Hover on Track */
+.#{$prefix}-sidebar:hover::-webkit-scrollbar-track {
+    background-color: $sidebar-scrollbar-track-background;
+}
+
+/* Handle */
+.#{$prefix}-sidebar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: $sidebar-scrollbar-thumb-border-radius;
+}
+
+/* Hover on handle */
+.#{$prefix}-sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: $sidebar-scrollbar-thumb-background;
+}
+
+/*
+ * Hide the text when overflow on the width of sidebar
+ */
+.#{$prefix}-sidebar ul li > a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

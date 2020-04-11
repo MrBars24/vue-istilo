@@ -1,0 +1,44 @@
+//  ============================================================
+//  Name:               Auth
+//  Description:        Styles for authentication page
+//
+//  Component:          `#{$prefix}-auth-wrapper`
+//                      `#{$prefix}-auth-copyright`
+//
+//  ============================================================
+
+//  ============================================================
+//  Variables
+//  ============================================================
+
+$auth-copyright-bottom:                         margin(global) !default;
+$auth-copyright-color:                          color(idle) !default;
+
+
+
+/* ============================================================
+    Flags: Auth
+   ============================================================ */
+
+.#{$prefix}-auth-wrapper {
+    top: 50%;
+
+    transform: translateY(50%);
+}
+
+.#{$prefix}-auth-copyright {
+    position: fixed;
+    bottom: $auth-copyright-bottom;
+    left: 0;
+    right: 0;
+
+    width: fit-content;
+
+    margin: 0 auto;
+}
+
+/* Remove margin by default */
+.#{$prefix}-auth-copyright > * {
+    margin: 0;
+    color: $auth-copyright-color;
+}
