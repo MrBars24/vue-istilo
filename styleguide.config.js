@@ -161,7 +161,7 @@ module.exports = {
      * 
      * @see {@link https://vue-styleguidist.github.io/Configuration.html#styleguidedir}
      */
-    styleguideDir: 'styleguide',
+    styleguideDir: 'docs',
 
     /**
      * Customize style guide UI fonts, colors, etc. using a theme object or
