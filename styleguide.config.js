@@ -103,8 +103,8 @@ module.exports = {
      * @see {@link https://vue-styleguidist.github.io/Configuration.html#ribbon}
      */
     ribbon: {
-        text: 'Made by GigaMare',
-        url: 'https://www.gigamare.com',
+        text: 'Alpha 0.0.1',
+        url: 'https://github.com/JaoAustero/',
     },
 
     /**
@@ -115,7 +115,7 @@ module.exports = {
      * 
      * @see {@link https://vue-styleguidist.github.io/Configuration.html#serverhost}
      */
-    serverHost: 'ftt-vuis.gmi-solution.loc',
+    serverHost: 'vue-istilo.loc',
 
     /**
      * Dev server port
@@ -189,7 +189,7 @@ module.exports = {
      * 
      * @see {@link https://vue-styleguidist.github.io/Configuration.html#title}
      */
-    title: 'VUI-Supply',
+    title: 'Vue Istilo Css',
 
     /**
      * Defines if the table of contents sections will behave like an accordion
@@ -219,7 +219,7 @@ module.exports = {
      * 
      * @see {@link https://vue-styleguidist.github.io/Configuration.html#version}
      */
-    version: '1.0.1',
+    version: '0.0.1',
 
     /**
      * Custom webpack config options: loaders, extensions, plugins, etc.

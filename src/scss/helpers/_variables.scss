@@ -7,7 +7,7 @@
 
 /* Filename
    ============================================================ */
-$prefix: 'uis' !default;
+$prefix: 'i' !default;
 
 
 /* Breakpoint
@@ -49,7 +49,7 @@ $breakpoint-max:(
 
 $font: () !default;
 $font:(
-    family:             'HelveticaNueueRoman',
+    family:             'Arial',
     size:               14px,
     kerning:            0.063rem,
     line-height:        1.5
