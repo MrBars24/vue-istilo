@@ -1,8 +1,17 @@
 # Vue Istilo Css
 
-A lightweight Vue component framework for website interface.
+> A lightweight Vue component framework for website interface.
 
-## Project setup
+## Features
+* All components uses the global variable for easy to maintain
+* Each components has local variable to easily track and configure the values
+* It's modular so you can import the components that you want to avoid unecessary components
+* It has own system icons created by [Jao Austero](https://github.com/JaoAustero) but you can use your own
+* 9 in 1 File architecture
+* Sematic code output
+* Focus on usability and performance without *over-animating* stuffs.
+
+## Documentation
 
 This project are still work in progress, my target month for 1.0 on June 2020
 
@@ -25,11 +34,28 @@ This project are still work in progress, my target month for 1.0 on June 2020
     </tr>
 </table>
 
-## Supporting through BuyMeACoffee
+## Support through Buy me a Coffee
 
 Istilo Css is an open source MIT project if you are interested in supporting this project, you can buy me a coffee
+
 <p align="center">
     <a href="https://www.buymeacoffee.com/jaoaustero">
-        <img width="30%" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=a">
+        <img width="25%" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=a">
     </a>
 </p>
+
+## Credits
+
+Vue Istilo Css Used [Vue Styleguidist] Isolated Vue component development environment with a living style guide
+
+<p align="center">
+    <a href="https://vue-styleguidist.github.io/">
+        <img width="80px"
+            src="https://raw.githubusercontent.com/vue-styleguidist/vue-styleguidist/master/assets/logo.png">
+    </a>
+</p>
+
+
+## License
+
+Code released under [MIT](https://github.com/JaoAustero/vue-istilo/blob/master/LICENSE) license.
