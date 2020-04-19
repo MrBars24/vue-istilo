@@ -46,14 +46,23 @@ Istilo Css is an open source MIT project if you are interested in supporting thi
 
 ## Credits
 
-Vue Istilo Css Used [Vue Styleguidist] Isolated Vue component development environment with a living style guide
+Vue Istilo Css has been dependent on these amazing tools!
 
-<p align="center">
-    <a href="https://vue-styleguidist.github.io/">
-        <img width="80px"
-            src="https://raw.githubusercontent.com/vue-styleguidist/vue-styleguidist/master/assets/logo.png">
-    </a>
-</p>
+<table>
+    <tr>
+        <td align="center">
+            <a href="https://vue-styleguidist.github.io/">
+                <img width="120px"
+                    src="https://raw.githubusercontent.com/vue-styleguidist/vue-styleguidist/master/assets/logo.png"
+                    style="max-width: 100%;">
+                    <br>
+                <sub>
+                    <b>Vue Styleguidist</b>
+                </sub>
+            </a>
+        </td>
+    </tr>
+</table>
 
 
 ## License
