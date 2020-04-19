@@ -30,6 +30,6 @@ This project are still work in progress, my target month for 1.0 on June 2020
 Istilo Css is an open source MIT project if you are interested in supporting this project, you can buy me a coffee
 <p align="center">
     <a href="https://www.buymeacoffee.com/jaoaustero">
-        <img src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=a">
+        <img width="30%" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=a">
     </a>
 </p>
