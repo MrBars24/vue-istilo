@@ -29,11 +29,11 @@ code below.
                 images:
                 [
                     {
-                        src: '/static/images/stock-photo-1.jpg',
+                        src: '/vue-istilo/static/images/stock-photo-1.jpg',
                     },
 
                     {
-                        src: '/static/images/stock-photo-2.jpg',
+                        src: '/vue-istilo/static/images/stock-photo-2.jpg',
                     },
                 ],
             };
@@ -72,12 +72,12 @@ to the data object.
                 images:
                 [
                     {
-                        src: '/static/images/stock-photo-1.jpg',
+                        src: '/vue-istilo/static/images/stock-photo-1.jpg',
                         caption: 'Brewed Coffee while coding'
                     },
 
                     {
-                        src: '/static/images/stock-photo-2.jpg',
+                        src: '/vue-istilo/static/images/stock-photo-2.jpg',
                         caption: 'Short vacation at Makati'
                     },
                 ],
