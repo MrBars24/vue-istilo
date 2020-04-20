@@ -42,6 +42,15 @@ module.exports = {
     exampleMode: 'expand',
 
     /**
+     * Ignore sub-components
+     *
+     * @type {String}
+     *
+     * @see {@link https://vue-styleguidist.github.io/Configuration.html#ignore}
+     */
+    ignore: ['src/components/**/i-*-*.js'],
+
+    /**
      * Do your components contain JSX syntax? Since some TypeScript syntax can
      * sometimes conflict with JSX, it ca be useful to disble it when needed.
      * The following TypeScript code would fail parsing if this flag is not
