@@ -1,5 +1,5 @@
-import ButtonMixins from '@/components/mixins/button';
-import MouseMixins from '@/components/mixins/mouse';
+import ButtonMixins from '@/mixins/button';
+import MouseMixins from '@/mixins/mouse';
 
 /**
  * Classic button with different color, sizes and states

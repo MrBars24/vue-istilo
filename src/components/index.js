@@ -9,7 +9,7 @@ const requireComponent = require.context(
     // Look in subdirectories
     true,
     // Only include "uis-" prefixed .vue files
-    // /uis-[\w-]+\.vue$/,
+    // /i-[\w-]+\.vue$/,
     // Look for both "js" and "vue" prexied files
     /i-[\w-]+\.(?!(vue|js|jsx))?[^.]*$/
 );
