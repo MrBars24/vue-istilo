@@ -97,8 +97,11 @@ module.exports = {
         // To apply the Style of the Vui-Supply
         path.join(__dirname, 'src/scss/app.scss'),
 
+        // To apply the directives
+        path.join(__dirname, 'src/directives/index.js'),
+
         // To have interactive or playground of components
-        path.join(__dirname, 'src/components/index.js')
+        path.join(__dirname, 'src/components/index.js'),
     ],
 
     /**

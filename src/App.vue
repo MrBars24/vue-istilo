@@ -17,7 +17,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+    @import './scss/app.scss';
+
     #app {
         font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
         text-align: center;
